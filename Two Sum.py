@@ -34,4 +34,6 @@ class Solution:
                     return [i,j]
 
 sol = Solution()
-print(sol.twoSum([2,7,11,15],9))
+nums = list(map(int,input('Enter the list of number: ').split()))
+target = int(input('Enter the target value: '))
+print(sol.twoSum(nums,target))
